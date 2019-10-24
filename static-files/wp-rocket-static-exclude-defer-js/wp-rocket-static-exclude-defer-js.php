@@ -30,7 +30,7 @@ function exclude_files( $excluded_files = array() ) {
 	 * Edit below line as needed to exclude files.
 	 * To exclude mupltiple files, copy the entire line into a new line for each file you wish you exclude.
 	 */
-	$excluded_files[] = '/wp-includes/js/jquery/jquery.masonry.min.js';
+	$excluded_files[] = '/wp-content/plugins/interactive-world-maps/includes/(.*).js';
 	// STOP EDITING
 
 	return $excluded_files;
